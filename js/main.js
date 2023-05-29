@@ -22,9 +22,9 @@ btnDarkMode.onclick = function () {
 }
 
 function downloadCV() {
-    alert('CV not ready atm /Test/...'); // Display the alert message
+    alert('CV not ready at the moment :) ...'); // Display the alert message
     var link = document.createElement('a');
-    link.href = './test cv.txt'; // Replace with the path to your CV file
-    link.download = 'test cv.txt'; // Replace with the desired filename
+    // link.href = './test cv.txt'; // Replace with the path to your CV file
+    // link.download = 'test cv.txt'; // Replace with the desired filename
     link.click();
   }
