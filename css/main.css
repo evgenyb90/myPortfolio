@@ -299,6 +299,7 @@ html, body {
 
 .project__img {
     border-radius: 10px;
+    border: 9px solid var(--dark-bg);
 }
 
 .project__title {
@@ -332,6 +333,10 @@ html, body {
     font-size: 24px;
     line-height: 1.3;
 }
+
+.project-details__desc p:not(:last-child) {
+    margin-bottom: 15px;
+}   
 
 /* Content list */
 
@@ -460,6 +465,10 @@ html, body {
 
     .dark-mode-btn {
         margin: auto;
+    }
+
+    .project-details__desc {
+        font-size: 16px;
     }
 }
 
