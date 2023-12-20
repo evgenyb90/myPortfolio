@@ -21,10 +21,10 @@ btnDarkMode.onclick = function () {
     }
 }
 
-function downloadCV() {
-    alert('CV not ready at the moment :) ...'); // Display the alert message
-    var link = document.createElement('a');
-    // link.href = './test cv.txt'; // Replace with the path to your CV file
-    // link.download = 'test cv.txt'; // Replace with the desired filename
-    link.click();
-  }
+function openPDFCV() {
+    // Assuming your PDF CV is located at './path/to/your/cv.pdf'
+    var pdfPath = './Frontend CV Evgeny Bogdanov.pdf';
+
+    // Open the PDF in a new tab
+    window.open(pdfPath, '_blank');
+}
