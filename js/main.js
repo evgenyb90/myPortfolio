@@ -23,7 +23,7 @@ btnDarkMode.onclick = function () {
 
 function openPDFCV() {
     // Assuming your PDF CV is located at './path/to/your/cv.pdf'
-    var pdfPath = './Frontend CV Evgeny Bogdanov.pdf';
+    var pdfPath = './Evgeny Bogdanov CV frontend.pdf';
 
     // Open the PDF in a new tab
     window.open(pdfPath, '_blank');
